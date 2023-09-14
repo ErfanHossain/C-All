@@ -3,8 +3,8 @@ int main()
 {
     int n;
     scanf("%d",&n);
-    int a=sqrt(n);
-    printf("%d",a);
+    double a=sqrt(n);
+    printf("%.2lf",a);
     return 0;
 }
 
